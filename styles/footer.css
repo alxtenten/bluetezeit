@@ -1,0 +1,15 @@
+footer{
+    background-color: var(--primary);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:5vw;
+    padding-inline:var(--stm);
+    .brand{
+        color:white;
+    }
+    #social_media{
+        
+    }
+}

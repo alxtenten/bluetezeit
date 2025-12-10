@@ -1,0 +1,36 @@
+.navbar {
+    position:fixed;
+    top:0;
+    left:6.5vw;
+    right:6.5vw;
+    margin-inline: var(--stp);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap:23vw;
+    .logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .bar{
+        z-index:-1;
+        position:absolute;
+        height: 2.5rem;
+        width: 78vw;
+        background-color: var(--primary);
+    }
+    nav{
+        gap:var(--stp);
+        display:flex;
+        flex-direction: row;
+        text-transform: uppercase;
+        a{
+            text-align: center;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        
+    }
+}

@@ -1,0 +1,8 @@
+:root{
+    --primary:#649A45;
+    --primary-dark: #225626;
+    --accent: #BB914E;
+    --background-color: #F9EECC;
+    --stp: 1.25rem; /*standard padding*/
+    --stm: 8.625rem; /*standard margin*/
+}

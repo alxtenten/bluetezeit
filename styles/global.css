@@ -1,0 +1,21 @@
+*{
+    font-family: 'Inter';
+}
+a{            
+    color: #000000;
+    text-decoration: none;
+}
+.brand {
+    font-family: 'Glass Antiqua';
+    text-transform: uppercase;
+}
+.text {
+
+}
+.button {
+
+}
+.bold {
+
+    font-weight: 600;
+}
