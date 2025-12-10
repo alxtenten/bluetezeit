@@ -4,5 +4,8 @@
     --accent: #BB914E;
     --background-color: #F9EECC;
     --stp: 1.25rem; /*standard padding*/
-    --stm: 8.625rem; /*standard margin*/
+    --hstp: 0.625rem; /*half of standard padding*/
+    --stm-inline: 8.625rem; /*standard inline margin*/
+    --stm-block: 6.354rem; /*standard block margin*/
+    --txtgap: 1.563rem; /*gap between paragraphs and headline*/
 }

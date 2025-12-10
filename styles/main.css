@@ -1,4 +1,18 @@
-.block{
-    display:flex;
-    flex-direction: row;
+main{
+    justify-content: center;
+    .block{
+        display:flex;
+        flex-direction: row;
+        margin-inline:var(--stm-inline);
+        margin-top:var(--stm-inline);
+        p{
+            padding-top:var(--txtgap);
+        }
+    }
+    .divider{
+        margin-top: var(--stm-block);
+        margin-inline: var(--stm-inline);
+        height:1px;
+        border-top:1px solid var(--accent);
+    }
 }

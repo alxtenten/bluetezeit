@@ -1,15 +1,27 @@
 footer{
+    padding-top:var(--stp);
     background-color: var(--primary);
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     gap:5vw;
-    padding-inline:var(--stm);
+    padding-inline:var(--stm-inline);
     .brand{
         color:white;
     }
     #social_media{
-        
+        margin-block: 20px;
+        padding-inline:var(--stm-inline);
+        text-align: center;
+        border-left: 1px solid var(--primary-dark);
+        border-right: 1px solid var(--primary-dark);
+        img{
+            margin-inline:var(--stp);
+        }
+       *{
+            padding-block:var(--hstp);
+        }
     }
+     
 }
