@@ -43,6 +43,7 @@
     }
     @media(max-width: 800px){
         nav{
+            padding: var(--stp);
             display: flex;
             position: absolute;
             flex-direction: column;
@@ -83,7 +84,7 @@
         opacity:0;
     }
     .line_3{
-        transform: translate(0px,-7px) rotate(-45deg);
+        transform: translate(0px,-8.7px) rotate(-45deg);
     }
    
     }

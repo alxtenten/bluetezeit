@@ -25,4 +25,8 @@
             border-radius: 1.5rem;
         }
     }
+    .card_desc{
+        padding-inline: var(--stp);
+        text-align: center;
+    }
 }
