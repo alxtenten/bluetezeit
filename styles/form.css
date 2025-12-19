@@ -1,9 +1,13 @@
 #multiStepForm{
     margin:var(--stm-block) var(--stm-inline);
     justify-content: center;
+    display:flex;
 .steps-wrapper{
-    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     .first-panel{
+        height:30rem;
         display:grid;
         grid-template-areas: 
         'heading_1 heading_1'
@@ -12,6 +16,7 @@
         'button_1 button_2';
     }
     .second-panel{
+        height:30rem;
         display:grid;
         grid-template-areas: 
         'heading_2 heading_2'
@@ -20,6 +25,7 @@
         'button_3 button_4';
     }
     .third-panel{
+        height:30rem;
         display:grid;
         grid-template-areas: 
         'heading_3 heading_3'
@@ -27,16 +33,8 @@
         'select_11 select_12'
         'button_5 button_6';
     }
-    .fourth-panel{
-        display:grid;
-        grid-template-areas: 
-        'heading_4 heading_4'
-        'select_13 select_14'
-        'select_15 select_16'
-        'button_7 button_8';
-    }
     .step-panel{
-        height:30rem;
+        margin-block: var(--stp);
         width:22.2rem;
         background-color: var(--background-color);
         border:1px solid var(--accent);
@@ -51,6 +49,12 @@
             border:4px solid hsla(0,0%,0%,0%);
         }
         }
+    }
+    .submit_panel{
+        h2{
+            margin:var(--stp);
+        }
+        text-align: center;
     }
     img + p{
         text-align: center;

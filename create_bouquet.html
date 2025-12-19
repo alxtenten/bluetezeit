@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="./style.css">
-        <title>Home | Bluetezeit</title>
+        <title>Create Your Bouquet | Bluetezeit</title>
     </head>
     <body>
-        
+        <script type=module src="hamburger.js"></script>
         <header>
             
             <!--<div id="3DScene">
@@ -25,17 +25,23 @@
                         <h1 class = "brand">Blütezeit</h1>
                     </a>
                 </div>
-                
                 <div class = "bar"></div>
+                <div class="menu">
+                <div class="hamburger">
+                    <div class="line_1"></div>
+                    <div class="line_2"></div>
+                    <div class="line_3"></div>
+                </div>
+                
                 <nav>
                     <a href="index.html">Home</a>
                     <a href="create_bouquet.html">Create Your Bouquet</a>
                     <a href="browse.html">Browse</a>
-                    <a href="login.html">Account</a>
                 </nav>
             </div>
+            </div>
         <main>
-            <form id="multiStepForm" name="contact-form-netlify-new" netlify action="thank-you">
+            <form id="multiStepForm" name="contact-form-netlify-new" netlify action="thank-you.html">
 
                 <div class="steps-wrapper">
                 <!-- Step 1 -->
@@ -83,7 +89,6 @@
                         </label>
                     </div>
                     -->
-                <a class="button" style="grid-area: button_2; margin:0rem;" href="index.html">Next</a>
                 </div>
                 
 
@@ -132,9 +137,6 @@
                         </label>
                     </div>
                     -->
-
-                <a class="button"  style="grid-area: button_3; margin:0rem;" href="index.html">Back</a>
-                <a class="button " style="grid-area: button_4; margin:0rem;" href="index.html">Next</a>
                 </div>
 
                 <!-- Step 3 -->
@@ -182,8 +184,6 @@
                         </label>
                     </div>
                     -->
-                <a class="button" style="grid-area: button_5; margin:0rem;" href="index.html">Back</a>
-                <a class="button" style="grid-area: button_6; margin:0rem;" href="index.html">Next</a>
                 </div>
                 
 
@@ -199,20 +199,12 @@
                 -->
 
                 <!-- Step 5 -->
-                <div class="step-panel" data-step="4">
-                    <h2>Review & Submit</h2>
-                    <p>Everything looks good. Ready to submit?</p>
-
-                    <div class="review-box" id="reviewBox">
-                    <script type="module" src="/form.js"></script>
-                    </div>
-                    <button type="submit" id="submitBtn">Submit</button>
+                <div class="step-panel submit_panel" data-step="4">
+                    <h2 class="brand">4.Ready to submit?</h2>
+                </div>
+                    <button class="button" type="submit" id="submitBtn">Submit</button>
                 </div>
                 </div>
-
-                <!-- Buttons -->
-                <div class="nav-buttons">
-                <button type="submit" id="submitBtn">Submit</button>
                 </div>
             </form>
         </main>

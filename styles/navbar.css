@@ -33,4 +33,59 @@
         }
         
     }
+    @media(min-width: 801px){
+        nav{
+            display:flex;
+        }
+        .hamburger{
+            display:none;
+        }
+    }
+    @media(max-width: 800px){
+        nav{
+            display: flex;
+            position: absolute;
+            flex-direction: column;
+            background-color: var(--background-color);
+            top: 6rem;
+            left: 55rem;
+            border: 1px solid var(--accent);
+            border-radius: 10px;
+            transition: 0.8s ease;
+        }
+        nav.active{
+            left:22rem;
+        }
+    
+    .hamburger{
+        transition: 0.8s ease;
+        div{
+            width:1.25rem;
+            position:relative;
+        line-height: 1px;
+        border: 2px solid #000000;
+    }
+    .line_1{
+        top:-0.25rem;
+    }
+    .line_3{
+        top:0.25rem;
+    }
+   
+    }
+    .hamburger.active{
+        transition: 0.8s ease;
+    
+    .line_1{
+        transform: translate(0px,7px) rotate(45deg) ;
+    }
+    .line_2{
+        opacity:0;
+    }
+    .line_3{
+        transform: translate(0px,-7px) rotate(-45deg);
+    }
+   
+    }
+}
 }

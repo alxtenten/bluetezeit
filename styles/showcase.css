@@ -1,0 +1,28 @@
+#showcase{
+    .row{
+        display:flex;
+        flex-direction: row;
+        margin-block: var(--stm-block);
+        justify-content: center;
+        gap:20px;
+    }
+    .card{
+        height:26.25rem;
+        width: 21rem;
+        background-color: #ffffff;
+        box-shadow: 4px 4px hsla(0,0%,0%,25%);
+        margin-block: var(--stp);
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 20px;
+        gap: 20px;
+        align-items: center;
+        img{
+            height: 12.5rem;
+            width: 18.725rem;
+            object-fit: cover;
+            border-radius: 1.5rem;
+        }
+    }
+}
