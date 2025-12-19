@@ -3,16 +3,23 @@ footer{
     background-color: var(--primary);
     display:flex;
     flex-direction: row;
-    justify-content: space-evenly;
     align-items: center;
-    gap:5vw;
-    padding-inline:var(--stm-inline);
+    .footer_block{
+        margin-block: var(--stp);
+    }
     .brand{
         color:white;
     }
+    #opening_hours{
+        width:217px;
+        display:flex;
+        flex-direction: column;
+        gap:28px;
+        padding-left:var(--stm-inline);
+    }
     #social_media{
-        margin-block: 20px;
-        padding-inline:var(--stm-inline);
+        width:730px;
+        margin-inline: var(--stp);
         text-align: center;
         border-left: 1px solid var(--primary-dark);
         border-right: 1px solid var(--primary-dark);
@@ -23,5 +30,9 @@ footer{
             padding-block:var(--hstp);
         }
     }
-     
+    #footer_etc{
+        width:217px;
+        text-align: center;
+        padding-right:var(--stm-inline);
+    }
 }

@@ -18,8 +18,10 @@ a{
     border: 2px solid #000000;
     border-radius: 11px;
     text-transform: uppercase;
+    text-align: center;
+    max-width: fit-content;
+    align-self: center;
 }
 .bold {
-
     font-weight: 600;
 }

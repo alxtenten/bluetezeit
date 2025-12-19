@@ -9,9 +9,11 @@
         
         <header>
             
-            <div id="3DScene">
+            <!--<div id="3DScene">
+                
                 <script type="module" src="/main.js"></script>
-            </div>
+            </div> -->
+        
         </header>
         <div class="navbar">
                 
@@ -33,18 +35,197 @@
                 </nav>
             </div>
         <main>
-            
+            <form id="multiStepForm" name="contact-form-netlify-new" netlify action="thank-you">
+
+                <div class="steps-wrapper">
+                <!-- Step 1 -->
+                <div class="step-panel active first-panel" data-step="0">
+                    <h2 class = "brand" style="grid-area: heading_1">1.Choose Main Flowers</h2>
+
+                    <div class="field" style="grid-area: select_1;">
+                        <input type="radio" id="main_flower_1" name="main_flower"/>
+                        <label for="main_flower_1">
+                            <div class="flower_select">
+                                <img src="./images/red_roses.png" alt="A picture of flowers">
+                                <p>Red Roses</p>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="field" style="grid-area: select_2;">
+                        <input type="radio" id="main_flower_2" name="main_flower"/>
+                        <label for="main_flower_2">
+                            <div class="flower_select">
+                                <img src="./images/pink_mum.png" alt="A picture of flowers">
+                                <p>Pink Mum</p>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="field" style="grid-area: select_3;">
+                        <input type="radio" id="main_flower_3" name="main_flower"/>
+                        <label for="main_flower_3">
+                            <div class="flower_select">
+                                <img src="./images/white_tulips.png" alt="A picture of flowers">
+                                <p>White Tulips</p>
+                            </div>
+                        </label>
+                    </div>
+
+                    <!--
+                    <div class="field" style="grid-area: select_4;">
+                        <input type="radio" id="main_flower_4" name="main_flower"/>
+                        <label for="main_flower_4">
+                            <div class="flower_select">
+                                <img src="./images/home_bouquet.png" alt="A picture of flowers">
+                                <p>Daisy Delight</p>
+                            </div>
+                        </label>
+                    </div>
+                    -->
+                <a class="button" style="grid-area: button_2; margin:0rem;" href="index.html">Next</a>
+                </div>
+                
+
+                <!-- Step 2 -->
+                <div class="step-panel active second-panel" data-step="1">
+                    <h2 class = "brand" style="grid-area: heading_2">2.Choose Secondary Flowers</h2>
+
+                    <div class="field" style="grid-area: select_5;">
+                        <input type="radio" id="second_flower_1" name="second_flower"/>
+                        <label for="second_flower_1">
+                            <div class="flower_select">
+                                <img src="./images/red_roses.png" alt="A picture of flowers">
+                                <p>Red Roses</p>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="field" style="grid-area: select_6;">
+                        <input type="radio" id="second_flower_2" name="second_flower"/>
+                        <label for="second_flower_2">
+                            <div class="flower_select">
+                                <img src="./images/pink_mum.png" alt="A picture of flowers">
+                                <p>Pink Mum</p>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="field" style="grid-area: select_7;">
+                        <input type="radio" id="second_flower_3" name="second_flower"/>
+                        <label for="second_flower_3">
+                            <div class="flower_select">
+                                <img src="./images/white_tulips.png" alt="A picture of flowers">
+                                <p>White Tulips</p>
+                            </div>
+                        </label>
+                    </div>
+
+                    <!--
+                    <div class="field" style="grid-area: select_8;">
+                        <input type="radio" id="second_flower_4" name="second_flower"/>
+                        <label for ="second_flower_4">
+                            <div class="flower_select">
+                                <img src="./images/home_bouquet.png" alt="A picture of flowers">
+                                <p>Daisy Delight</p>
+                            </div>
+                        </label>
+                    </div>
+                    -->
+
+                <a class="button"  style="grid-area: button_3; margin:0rem;" href="index.html">Back</a>
+                <a class="button " style="grid-area: button_4; margin:0rem;" href="index.html">Next</a>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="step-panel active third-panel" data-step="2">
+                    <h2 class = "brand" style="grid-area: heading_3">3.Choose Accent Flowers</h2>
+
+                    <div class="field" style="grid-area: select_9;">
+                    <input type="radio" id="accent_flower_1" name="accent_flower"/>
+                    <label for="accent_flower_1">
+                            <div class="flower_select">
+                                <img src="./images/white_gysophila.png" alt="A picture of flowers">
+                                <p>White gysophila</p>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="field" style="grid-area: select_10;">
+                    <input type="radio" id="accent_flower_2" name="accent_flower"/>
+                    <label for="accent_flower_2">
+                            <div class="flower_select">
+                                <img src="./images/pink_gysophila.png" alt="A picture of flowers">
+                                <p>Pink Gysophila</p>
+                            </div>
+                        </label>
+                    </div>
+
+                    <!--
+                    <div class="field" style="grid-area: select_11;">
+                    <input type="radio" id="accent_flower_3" name="accent_flower"/>
+                    <label for="accent_flower_3">
+                            <div class="flower_select">
+                                <img src="./images/home_bouquet.png" alt="A picture of flowers">
+                                <p>Daisy Delight</p>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="field" style="grid-area: select_12;">
+                    <input type="radio" id="accent_flower_4" name="accent_flower"/>
+                    <label for="accent_flower_4">
+                            <div class="flower_select">
+                                <img src="./images/home_bouquet.png" alt="A picture of flowers">
+                                <p>Daisy Delight</p>
+                            </div>
+                        </label>
+                    </div>
+                    -->
+                <a class="button" style="grid-area: button_5; margin:0rem;" href="index.html">Back</a>
+                <a class="button" style="grid-area: button_6; margin:0rem;" href="index.html">Next</a>
+                </div>
+                
+
+                <!-- Step 4 
+                <div class="step-panel" data-step="3">
+                    <h2 class = "brand">Additional Info</h2>
+
+                    <div class="field">
+                    <label>Notes</label>
+                    <textarea id="notes" rows="4" name="notes"></textarea>
+                    </div>
+                </div>
+                -->
+
+                <!-- Step 5 -->
+                <div class="step-panel" data-step="4">
+                    <h2>Review & Submit</h2>
+                    <p>Everything looks good. Ready to submit?</p>
+
+                    <div class="review-box" id="reviewBox">
+                    <script type="module" src="/form.js"></script>
+                    </div>
+                    <button type="submit" id="submitBtn">Submit</button>
+                </div>
+                </div>
+
+                <!-- Buttons -->
+                <div class="nav-buttons">
+                <button type="submit" id="submitBtn">Submit</button>
+                </div>
+            </form>
         </main>
 
         <footer>
 
-            <div id="opening_hours">
+            <div id="opening_hours" class="footer_block">
                 <p class = "bold">Open Hours</p>
-                <p>Mon-Sat: 09:00-14:00<br>
-                Closed on Sunday</p>
+                <p>Mon-Sat: 09:00-14:00</p>
+                <p>Closed on Sunday</p>
             </div>
 
-            <div id="social_media">
+            <div id="social_media" class="footer_block">
                 <img src="images/logo.png" alt="">
                 <h1 class = "brand">Blütezeit</h1>
                 <p>FOLLOW US ON SOCIAL MEDIA</p>
@@ -53,7 +234,7 @@
                 <img src="icons/pinterest.svg" alt="">
             </div>
 
-            <a class="bold" href="index.html">Imprint & Privacy</a>
+            <a class="bold footer_block" id="footer_etc" href="index.html">Imprint & Privacy</a>
         </footer>
         
     </body>

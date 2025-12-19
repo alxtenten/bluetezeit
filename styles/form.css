@@ -1,0 +1,75 @@
+#multiStepForm{
+    margin:var(--stm-block) var(--stm-inline);
+    justify-content: center;
+.steps-wrapper{
+    
+    .first-panel{
+        display:grid;
+        grid-template-areas: 
+        'heading_1 heading_1'
+        'select_1 select_2'
+        'select_3 select_4'
+        'button_1 button_2';
+    }
+    .second-panel{
+        display:grid;
+        grid-template-areas: 
+        'heading_2 heading_2'
+        'select_5 select_6'
+        'select_7 select_8'
+        'button_3 button_4';
+    }
+    .third-panel{
+        display:grid;
+        grid-template-areas: 
+        'heading_3 heading_3'
+        'select_9 select_10'
+        'select_11 select_12'
+        'button_5 button_6';
+    }
+    .fourth-panel{
+        display:grid;
+        grid-template-areas: 
+        'heading_4 heading_4'
+        'select_13 select_14'
+        'select_15 select_16'
+        'button_7 button_8';
+    }
+    .step-panel{
+        height:30rem;
+        width:22.2rem;
+        background-color: var(--background-color);
+        border:1px solid var(--accent);
+        border-radius: 1.25rem;
+        justify-items: center;
+        align-items: center;
+    }
+    .flower_select{
+        img{
+            width:7.7rem;
+            height:6.25rem;
+            border:4px solid hsla(0,0%,0%,0%);
+        }
+        }
+    }
+    img + p{
+        text-align: center;
+    }
+    input[type="radio"]{
+        appearance: none;
+        +label{
+            display:inline-block;
+            height:9.375;
+            width:9.375;
+            
+        }
+        
+    }
+    input[type="radio"]:checked+label{
+        img{
+            border:4px solid #000000;
+            border-radius: 1.25rem;
+        }
+    }
+
+}

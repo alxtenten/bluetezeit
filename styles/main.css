@@ -1,18 +1,29 @@
 main{
     justify-content: center;
     .block{
+        height: 401px;
         display:flex;
-        flex-direction: row;
+        flex-direction:row;
+        justify-content: space-between;
         margin-inline:var(--stm-inline);
-        margin-top:var(--stm-inline);
+        margin-block:var(--stm-block);
         p{
             padding-top:var(--txtgap);
         }
     }
+    .block_text{
+        display: flex;
+        flex-direction: column;
+        max-width: 454px;
+    }
     .divider{
-        margin-top: var(--stm-block);
         margin-inline: var(--stm-inline);
         height:1px;
         border-top:1px solid var(--accent);
+    }
+    .staff_img{
+        display:flex;
+        flex-direction: row;
+        gap:32px;
     }
 }
